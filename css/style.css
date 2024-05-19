@@ -65,10 +65,15 @@ body {
     position: relative;
 }
 .card-title {
-    /* padding-inline: 2.2rem; */
-    font-size: 1.8rem;
-    /* text-align: center; */
-    /* line-height: 1.25; */
+    color: var(--white-main-heading-stats);
+    font-size: 1.75rem;
+    margin-inline: 1.289rem;
+    margin-block: 2.3rem;
+    padding-block-start: 0.2rem;
+    line-height: 1.15;
+}
+.card-title>span {
+    color: var(--soft-violet-accent);
 }
 .overlay {
     border-top-left-radius: 8px;
