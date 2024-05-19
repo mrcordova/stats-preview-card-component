@@ -41,3 +41,11 @@ body {
     display: grid;
     place-content: center;
 }
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    inline-size: 20.5rem;
+    block-size: 48.4rem;
+    background-color: var(--dark-desaturated-blue-card-bg);
+}
