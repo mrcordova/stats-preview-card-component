@@ -154,8 +154,9 @@ body {
     min-width: 0;
     flex: 1;
     
+    margin-inline: clamp(0rem, -1.5845rem + 6.7606vw, 4.5rem) clamp(0rem, -3.3451rem + 14.2723vw, 9.5rem);
     /* Desktop */
-    margin-inline: 4.5rem 9.5rem;
+    /* margin-inline: 4.5rem 9.5rem; */
 }
 
 
@@ -165,10 +166,12 @@ body {
 .stats-con>section:nth-child(2)>h2, .stats-con>section:nth-child(3)>h2{
     /* Mobile */
     /* padding-block-start: 1.45rem; */
+    padding-block-start: 1.45rem;
+    padding-inline-start: clamp(0rem, -0.1056rem + 0.4507vw, 0.3rem);
     
     /* Desktop */
-    padding-block-start: 1.45rem;
-    padding-inline-start: 0.3rem;
+    /* padding-block-start: 1.45rem; */
+    /* padding-inline-start: 0.3rem; */
 }
 
 .stats-con>section>p {
@@ -176,20 +179,24 @@ body {
     /* Mobile */
     /* font-size: 0.8rem; */
     /* letter-spacing: 0.05rem; */
-
-    /* Desktop */
+    
     font-size: 0.8rem;
     letter-spacing: 0.05rem;
+    /* Desktop */
+    /* font-size: 0.8rem; */
+    /* letter-spacing: 0.05rem; */
    
 }
 
 .stats-con>section:nth-child(2)>p, .stats-con>section:nth-child(3)>p {
     /* Mobile */
     /* padding-block-start: 0.1rem; */
-
-    /* Desktop */
+    
     padding-block-start: 0.1rem;
-    padding-inline-start: 0.3rem;
+    padding-inline-start: clamp(0rem, -0.1056rem + 0.4507vw, 0.3rem);
+    /* Desktop */
+    /* padding-block-start: 0.1rem; */
+    /* padding-inline-start: 0.3rem; */
 }
 
 @media (min-width: 47.5rem) {
