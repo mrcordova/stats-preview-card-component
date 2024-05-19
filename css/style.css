@@ -131,4 +131,19 @@ body {
         inline-size: 69rem;
         block-size: 28rem;
     }
+
+    .card-img-con {
+        flex: 1;
+        display: flex;
+        height: 100%;
+        min-width: 0;
+        /* width: 100%; */
+        
+    }
+    .card-img {
+        /* flex: 0 1 100%; */
+    }
+    .card-content {
+        flex: 1;
+    }
 }
