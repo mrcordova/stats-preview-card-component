@@ -161,9 +161,11 @@ body {
 @media (min-width: 47.5rem) {
     .card {
         flex-direction: row-reverse;
-        align-items: flex-start;
     }
 
+    .card-content {
+        align-self: flex-start;
+    }
     .card-title {
         text-align: justify;
     }
