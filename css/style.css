@@ -106,10 +106,7 @@ body {
     
 }
 
-.stats-con>section {
-    /* flex: 1; */
-    
-}
+
 .stats-con>section>h2 {
     color: var(--white-main-heading-stats);
 }
@@ -123,6 +120,6 @@ body {
     letter-spacing: 0.05rem;
 }
 
-.stats-con>section:nth-child(2)>p, .stats-con>section:nth-child(2)>p {
+.stats-con>section:nth-child(2)>p, .stats-con>section:nth-child(3)>p {
     padding-block-start: 0.1rem;
 }
