@@ -89,7 +89,7 @@ body {
     
     /* Desktop */
     margin-inline: 4rem 9rem;
-    margin-block-end: 2.3125rem;
+    margin-block-end: 2.9rem;
     padding-inline: 0.4rem;
     font-size: 0.95rem;
     line-height: 1.65;
@@ -145,10 +145,9 @@ body {
 .stats-con {
     display: flex;
     flex-direction: column;
-    /* flex-wrap: wrap; */
     min-width: 0;
     flex: 1;
-    /* width: 100%; */
+    
     
 }
 
@@ -199,6 +198,8 @@ body {
 
     .stats-con {
         flex-direction: row;
+        align-items: flex-end;
+        justify-content: center;
     }
 
 }
