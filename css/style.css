@@ -87,11 +87,27 @@ body {
 }
 .card-title {
     color: var(--white-main-heading-stats);
-    font-size: 1.75rem;
-    margin-inline: 1.289rem;
-    margin-block: 2.3rem 1rem;
+    /* Mobile */
+    /* font-size: 1.75rem; */
+    /* margin-inline: 1.289rem; */
+    /* margin-block: 2.3rem 1rem; */
+    /* padding-block-start: 0.2rem; */
+    /* line-height: 1.15; */
+    
+    /* Desktop */
+    font-size: 2.25rem;
+    margin-inline: 4.5rem 7.55rem;
+    margin-block: 4.6rem 0rem;
     padding-block-start: 0.2rem;
+    
+    /* padding-inline-start: 2.5rem;
+    padding-inline-end: 1.6rem; */
+   
+    
     line-height: 1.15;
+
+    
+    
 }
 .card-title>span {
     color: var(--soft-violet-accent);
@@ -145,9 +161,12 @@ body {
 @media (min-width: 47.5rem) {
     .card {
         flex-direction: row-reverse;
-        
+        align-items: flex-start;
     }
 
+    .card-title {
+        text-align: justify;
+    }
    
     .card-img {
         max-width: none;
