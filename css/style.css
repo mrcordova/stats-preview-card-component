@@ -65,7 +65,7 @@ body {
 .card-img {
     /* Mobile */
     /* border-top-left-radius: 8px; */
-    /* border-top-right-radius: 8px; */
+    border-top-right-radius: 8px;
 
     /* Desktop */
     border-top-left-radius: 0;
@@ -99,7 +99,7 @@ body {
 .overlay {
     /* Mobile */
     /* border-top-left-radius: 8px; */
-    /* border-top-right-radius: 8px; */
+    border-top-right-radius: 8px;
 
     /* Desktop */
     border-top-left-radius: 0;
