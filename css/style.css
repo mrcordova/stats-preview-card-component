@@ -47,17 +47,29 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--dark-desaturated-blue-card-bg);
-    /* background-color: red; */
-    inline-size: 20.4rem;
-    block-size: 48.7rem;
+
+    /* Mobile */
+    /* inline-size: 20.4rem; */
+    /* block-size: 48.7rem; */
+
+    /* Desktop */
+    inline-size: 69.5rem;
+    block-size: 28rem;
+
+
     border-radius: 8px;
     align-items: center;
     text-align: center;
 }
 
 .card-img {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    /* Mobile */
+    /* border-top-left-radius: 8px; */
+    /* border-top-right-radius: 8px; */
+
+    /* Desktop */
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 8px;
  
 }
 
@@ -85,8 +97,14 @@ body {
     color: var(--soft-violet-accent);
 }
 .overlay {
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    /* Mobile */
+    /* border-top-left-radius: 8px; */
+    /* border-top-right-radius: 8px; */
+
+    /* Desktop */
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 8px;
+
     top:0;
     left: 0;
     right: 0;
@@ -127,20 +145,22 @@ body {
 @media (min-width: 47.5rem) {
     .card {
         flex-direction: row-reverse;
-        inline-size: 69rem;
-        block-size: 28rem;
+        
     }
 
    
     .card-img {
         max-width: none;
-        border-top-left-radius: 0;
-        border-bottom-right-radius: 8px;
+      
     }
 
     .overlay {
         border-top-left-radius: 0;
         border-bottom-right-radius: 8px;
+    }
+
+    .stats-con {
+        flex-direction: row;
     }
 
 }
