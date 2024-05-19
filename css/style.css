@@ -68,6 +68,7 @@ body {
 .card-para {
     color: var(--slightly-transparent-white-main-paragraph);
     margin-inline: 1.4rem;
+    margin-block-end: 2.3125rem;
     padding-inline: 0.31rem;
     font-size: 0.95rem;
     line-height: 1.65;
@@ -93,4 +94,35 @@ body {
     position: absolute;
   
     background-color: hsl(from hsl(277.12, 54.94%, 49.61%) h s l / 0.7 );
+}
+
+.stats-con {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    min-width: 0;
+    flex: 1;
+    width: 100%;
+    
+}
+
+.stats-con>section {
+    /* flex: 1; */
+    
+}
+.stats-con>section>h2 {
+    color: var(--white-main-heading-stats);
+}
+.stats-con>section:nth-child(2)>h2, .stats-con>section:nth-child(3)>h2{
+    padding-block-start: 1.45rem;
+}
+
+.stats-con>section>p {
+    color: var(--slightly-transparent-white-stat-headings);
+    font-size: 0.8rem;
+    letter-spacing: 0.05rem;
+}
+
+.stats-con>section:nth-child(2)>p, .stats-con>section:nth-child(2)>p {
+    padding-block-start: 0.1rem;
 }
