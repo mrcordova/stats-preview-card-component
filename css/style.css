@@ -123,3 +123,12 @@ body {
 .stats-con>section:nth-child(2)>p, .stats-con>section:nth-child(3)>p {
     padding-block-start: 0.1rem;
 }
+
+@media (min-width: 47.5rem) {
+    .card {
+        flex-direction: row-reverse;
+        /* flex: 1; */
+        inline-size: 69rem;
+        block-size: 28rem;
+    }
+}
