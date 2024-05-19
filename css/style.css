@@ -45,7 +45,9 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    inline-size: 20.5rem;
-    block-size: 48.4rem;
     background-color: var(--dark-desaturated-blue-card-bg);
+    background-color: red;
+    inline-size: 20.5rem;
+    block-size: 48.7rem;
+    border-radius: 8px;
 }
