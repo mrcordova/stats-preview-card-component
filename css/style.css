@@ -51,6 +51,8 @@ body {
     inline-size: 20.4rem;
     block-size: 48.7rem;
     border-radius: 8px;
+    align-items: center;
+    text-align: center;
 }
 
 .card-img {
@@ -61,6 +63,12 @@ body {
 
 .card-img-con {
     position: relative;
+}
+.card-title {
+    /* padding-inline: 2.2rem; */
+    font-size: 1.8rem;
+    /* text-align: center; */
+    /* line-height: 1.25; */
 }
 .overlay {
     border-top-left-radius: 8px;
