@@ -110,11 +110,16 @@ body {
     /* padding-block-start: 0.2rem; */
     /* line-height: 1.15; */
     
-    /* Desktop */
-    font-size: 2.25rem;
-    margin-inline: 4.5rem 7.55rem;
-    margin-block: 4.6rem 1.5rem;
+    font-size: clamp(1.75rem, 1.5739rem + 0.7512vw, 2.25rem);
+    margin-inline: clamp(1.289rem, 0.1584rem + 4.8240vw, 4.5rem) clamp(1.289rem, -0.9156rem + 9.4062vw, 7.55rem);
+    margin-block: clamp(2.3rem, 1.4901rem + 3.4554vw, 4.6rem) clamp(1rem, 0.8239rem + 0.7512vw, 1.5rem);
     padding-block-start: 0.2rem;
+
+    /* Desktop */
+    /* font-size: 2.25rem; */
+    /* margin-inline: 4.5rem 7.55rem; */
+    /* margin-block: 4.6rem 1.5rem; */
+    /* padding-block-start: 0.2rem; */
     
     /* padding-inline-start: 2.5rem;
     padding-inline-end: 1.6rem; */
