@@ -48,13 +48,15 @@ body {
     flex-direction: column;
     background-color: var(--dark-desaturated-blue-card-bg);
 
+    inline-size: clamp(20.4rem, 3.1113rem + 73.7653vw, 69.5rem);
+    block-size: clamp(28rem, 55.9887rem + -31.0986vw, 48.7rem);
     /* Mobile */
     /* inline-size: 20.4rem; */
     /* block-size: 48.7rem; */
 
     /* Desktop */
-    inline-size: 69.5rem;
-    block-size: 28rem;
+    /* inline-size: 69.5rem; */
+    /* block-size: 28rem; */
 
 
     border-radius: 8px;
@@ -64,12 +66,9 @@ body {
 
 .card-img {
     /* Mobile */
-    /* border-top-left-radius: 8px; */
+    border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
-    /* Desktop */
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 8px;
  
 }
 
@@ -87,12 +86,17 @@ body {
     /* font-size: 0.95rem; */
     /* line-height: 1.65; */
     
-    /* Desktop */
-    margin-inline: 4rem 9rem;
-    margin-block-end: 2.9rem;
-    padding-inline: 0.4rem;
+    margin-inline: clamp(1.4rem, 0.4845rem + 3.9061vw, 4rem) clamp(1.4rem, -1.2761rem + 11.4178vw, 9rem);
+    margin-block-end: clamp(2.3125rem, 2.1056rem + 0.8826vw, 2.9rem);
+    padding-inline: clamp(0.31rem, 0.2783rem + 0.1352vw, 0.4rem);
     font-size: 0.95rem;
     line-height: 1.65;
+    /* Desktop */
+    /* margin-inline: 4rem 9rem; */
+    /* margin-block-end: 2.9rem; */
+    /* padding-inline: 0.4rem; */
+    /* font-size: 0.95rem; */
+    /* line-height: 1.65; */
 
     
     
@@ -126,13 +130,10 @@ body {
 }
 .overlay {
     /* Mobile */
-    /* border-top-left-radius: 8px; */
+    border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
-    /* Desktop */
-    border-top-left-radius: 0;
-    border-bottom-right-radius: 8px;
-
+    
     top:0;
     left: 0;
     right: 0;
@@ -200,7 +201,9 @@ body {
    
     .card-img {
         max-width: none;
-      
+    /* Desktop */
+        border-top-left-radius: 0;
+        border-bottom-right-radius: 8px;
     }
 
     .card-para {
@@ -209,6 +212,7 @@ body {
     }
 
     .overlay {
+    
         border-top-left-radius: 0;
         border-bottom-right-radius: 8px;
     }
