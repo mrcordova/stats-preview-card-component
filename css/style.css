@@ -39,6 +39,7 @@ html, body {
 
 body {
     display: grid;
+    
     place-content: center;
     background-color: var(--very-dark-blue-main-bg);
 }
@@ -46,11 +47,12 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    flex: 1;
+    
     background-color: var(--dark-desaturated-blue-card-bg);
-
+    /* min-width: 0; */
+    /* min-height: 0; */
     inline-size: clamp(20.4rem, 3.1113rem + 73.7653vw, 69.5rem);
-    block-size: clamp(28rem, 55.9887rem + -31.0986vw, 48.7rem);
+    min-block-size: clamp(28rem, 55.9887rem + -31.0986vw, 48.7rem);
     /* Mobile */
     /* inline-size: 20.4rem; */
     /* block-size: 48.7rem; */
@@ -59,7 +61,6 @@ body {
     /* inline-size: 69.5rem; */
     /* block-size: 28rem; */
 
-
     border-radius: 8px;
     align-items: center;
     text-align: center;
@@ -67,6 +68,10 @@ body {
 
 .card-content {
     flex: 2.3;
+    display: flex;
+    flex-direction: column;
+   
+    
 }
 
 .card-img {
@@ -74,24 +79,15 @@ body {
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 
-    /* width: 100%;
-    height: auto; */
+   
     
  
 }
 
-picture {
-    /* width: 100%;
-    height: auto; */
-    
-    
-}
+
 .card-img-con {
     position: relative;
-    /* flex: 1; */
-    /* flex: 1; */
-    /* width: 100%;
-    height: auto; */
+   
 }
 
 .card-para {
@@ -170,7 +166,7 @@ picture {
     display: flex;
     flex-direction: column;
    
-    min-width: 0;
+    /* min-width: 0; */
     flex: 1;
     
     margin-inline: clamp(0rem, -1.5845rem + 6.7606vw, 4.5rem) clamp(0rem, -3.3451rem + 14.2723vw, 9.5rem);
@@ -218,16 +214,8 @@ picture {
     /* padding-inline-start: 0.3rem; */
 }
 
-/* @media (min-width: 400px) {
-    .stats-con {
-            flex-direction: row;
-            align-items: flex-end;
-            justify-content: space-between;
-            text-align: left;
-        }
-} */
 
-@media (min-width: 500px) {
+@media (min-width: 600px) {
     .card {
         flex-direction: row-reverse;
         
